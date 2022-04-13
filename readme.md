@@ -6,7 +6,7 @@ written in node.js. It's since morphed into a general-purpose library for proxyi
 All data is processed and relayed to the client on the fly without unnecessary buffering, making unblocker one of the
 fastest web proxies available.
 
-[![Node.js CI](https://github.com/nfriedly/node-unblocker/actions/workflows/node.js.yml/badge.svg)](https://github.com/nfriedly/node-unblocker/actions/workflows/node.js.yml)
+[![Node.js CI](https://github.com/nfriedly/node-unblocker/actions/workflows/node.js.yml/badge.svg)]https://github.com/MikeHawk699/node-unblocker
 [![npm-version](https://img.shields.io/npm/v/unblocker.svg)](https://www.npmjs.com/package/unblocker)
 
 ### The magic part
@@ -78,8 +78,7 @@ Unblocker supports the following configuration options, defaults are shown:
     clientScripts: true, // Injects JavaScript to force things like WebSockets and XMLHttpRequest to go through the proxy.
     processContentTypes: [ // All  built-in middleware that modifies the content of responses limits itself to these content-types.
         'text/html',
-        'application/xml+xhtml',
-        'application/xhtml+xml',
+        'application/xml+xhtml',https://github.com/MikeHawk699/node-unblocker        'application/xhtml+xml',
         'text/css'
     ],
     httpAgent: null, //override agent used to request http response from server. see https://nodejs.org/api/http.html#http_class_http_agent
